@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="todos.css">
+</head>
+<body>
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Todo List</h1>
+            <form action="" class="search">
+                <input type="text" class="form-control m-auto" name="search" placeholder="search todos">
+            </form>
+        </header>
+        <ul class="list-group todos mx-auto">
+            <li class="list-group-item d-flex justify-content-between align-items-center text-light">
+                <span>wake up from sleep</span>
+                <svg class="w-5 ml-2 delete" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-light">
+                <span>brussh my teeth</span>
+                <svg class="w-5 ml-2 delete" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-light">
+                <span>say a prayer</span>
+                <svg class="w-5 ml-2 delete" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+            </li>
+        </ul>
+        <form action="" class="add text-center my-4">
+            <label for="" class="text-light">Add a new todo...</label>
+            <input type="text" class="form-control m-auto" name="add">
+        </form>
+    </div>
+    <script src="todos.js"></script>
+</body>
+</html>
