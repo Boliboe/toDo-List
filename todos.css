@@ -35,7 +35,7 @@ body {
     font-family: var(--font-family);
     font-size: var(--font-size-xsm);
     color: var(--light-color-alt);
-    background: var(--primary-background-color);
+    background: var(--secondary-background-color);
 }
 
 .container{
@@ -51,7 +51,7 @@ input [type=text]:focus{
 }
 
 .todos li{
-    background:var(--secondary-background-color);
+    background:var(--primary-background-color);
 }
 .delete{
     cursor: pointer;
