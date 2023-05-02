@@ -38,6 +38,21 @@ body {
     background: var(--secondary-background-color);
 }
 
+i{
+    font-size: var(--font-size-md);
+}
+
+/* Theme clor change */
+body.light-theme{
+    --light-color: #3d3d3d;
+    --light-color-alt: rgba(0,0,0,.6);
+    --primary-background-color:#fff;
+    --secondary-background-color:#f1f1f1;
+    --hover-light-color: #fff;
+    --transparent-dark-color: #f1f1f1;
+    --transparent-light-color: rgba(0, 0, 0,.1);
+}
+
 .container{
     max-width: 400px;
 }
