@@ -54,6 +54,22 @@ body.light-theme{
     --transparent-light-color: rgba(0, 0, 0,.1);
 }
 
+.header{
+    background-color: var(--secondary-background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+}
+
 .container{
     max-width: 400px;
 }
