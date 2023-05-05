@@ -85,6 +85,26 @@ body.light-theme{
     transition: opacity .5s; 
 }
 
+.form-container-inner{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-input,
+.form-btn{
+    display: inline-block;
+    border: 2px solid var(--secondary-background-color);
+    padding: 1.5rem;
+}
+
 .container{
     max-width: 400px;
 }
