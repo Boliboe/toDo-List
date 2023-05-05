@@ -70,6 +70,18 @@ body.light-theme{
     padding-block: 1.5rem;
 }
 
+.menu{
+    position: absolute;
+    top: 8.5rem;
+    right: 1.5rem;
+    width: 23rem;
+    padding: 1.5rem;
+    background-color: var(--secondary-background-color);
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity .25s ease-in;
+}
+
 .container{
     max-width: 400px;
 }
