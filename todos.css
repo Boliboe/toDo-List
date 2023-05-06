@@ -54,57 +54,6 @@ body.light-theme{
     --transparent-light-color: rgba(0, 0, 0,.1);
 }
 
-.header{
-    background-color: var(--secondary-background-color);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-}
-
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-block: 1.5rem;
-}
-
-.search-form-container{
-    width: 100%;
-    max-width: 100%;
-    height: 100vh;
-    background-color: var(--primary-background-color);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    display: flex;
-    opacity: 0;
-    transform: scale(0);
-    transition: opacity .5s; 
-}
-
-.form-container-inner{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: var(--gap);
-    text-align: center;
-}
-
-.form{
-    display: flex;
-    justify-content: center;
-}
-
-.form-input,
-.form-btn{
-    display: inline-block;
-    border: 2px solid var(--secondary-background-color);
-    padding: 1.5rem;
-}
-
 .container{
     max-width: 400px;
 }
